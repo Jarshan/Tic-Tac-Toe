@@ -27,7 +27,13 @@ export const TicTacToe = () => {
             data[num]="o";
             setCount(++count);
         }
+    }
 
+    const checkWin = () => {
+        if(data[0]===data[1] && data[1]===data[2] && data[2]!=="")
+        {
+            
+        }
     }
 
 
